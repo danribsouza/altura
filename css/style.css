@@ -1,0 +1,79 @@
+/* Fundo claro para contraste e fonte moderna */
+body {
+    background-color: #F3F4F6;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #1F2937;
+}
+
+/* Menu Superior - Grafite Escuro (Autoridade) */
+.menu-principal {
+    background-color: #111827 !important;
+    border-bottom: 3px solid #F59E0B; /* Linha de destaque amarela na base do menu */
+}
+
+/* Ajuste nos links do menu para ficarem mais elegantes */
+.navbar-dark .navbar-nav .nav-link {
+    color: #D1D5DB;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #F59E0B !important;
+}
+
+/* Banner Principal - Fundo escuro com texto vibrante */
+.banner-inicio {
+    background-color: #1F2937;
+    /* Para usar imagem, descomente a linha abaixo e coloque o caminho da foto */
+    /* background-image: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)), url('../img/fundo-metal.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    min-height: 400px;
+    border-bottom: 5px solid #F59E0B;
+}
+
+/* T&iacute;tulos - Mais peso e presen&ccedil;a */
+.titulo-secao {
+    color: #111827;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+/* Bot&atilde;o de Destaque - Amarelo Ouro (Chama pro Agendamento/Compra) */
+.btn-destaque {
+    background-color: #F59E0B;
+    border: 2px solid #F59E0B;
+    color: #111827;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px; /* Bordas mais retas para visual mais estrutural */
+    transition: all 0.3s ease;
+}
+
+.btn-destaque:hover {
+    background-color: transparent;
+    color: #F59E0B;
+    transform: translateY(-2px);
+}
+
+/* Cart&otilde;es da Galeria/Produtos */
+.cartao-galeria {
+    border-radius: 8px;
+    border: 1px solid #E5E7EB !important;
+    background-color: #FFFFFF;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.cartao-galeria:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    cursor: pointer;
+}
